@@ -11,22 +11,24 @@ import {
 import DetailsComponent from './Components/DetailsComponent';
 import HomeComponent from './Components/HomeComponent';
 import Create from './Components/Create';
+import { Nav,Navbar,Container } from 'react-bootstrap';
+
 function App() {
   return (
+  
     <div ><header>
       <Router>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/Details">Edit</Link>
-          </li>
-          <li>
-            <Link to="/Create">Register</Link>
-          </li>
-         
-        </ul>
+      <Navbar bg="light" variant="light">
+    <Container>
+    <Navbar.Brand href="#home">React Api</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link href="#home"><Link to="/">Home</Link></Nav.Link>
+      <Nav.Link href="#features"><Link to="/Details">Edit</Link></Nav.Link>
+      <Nav.Link href="#pricing"><Link to="/Create">Register</Link></Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
+
         <Switch>
 
         <Route path="/Details/:id" render={(props)=>(<DetailsComponent{...props} />)}>

@@ -1,6 +1,7 @@
 /* eslint-disable no-restricted-globals */
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
+import Table from 'react-bootstrap/Table';
 class HomeComponent extends Component {
     constructor(){
         super();
@@ -43,7 +44,8 @@ class HomeComponent extends Component {
                     this.state.list?
                     <div>
                        
-                            <table>
+                            <Table striped bordered hover size="sm">
+                                <thead>
                                 <tr>
                                     <th>Name</th>
                                     <th>Email</th>
@@ -52,7 +54,8 @@ class HomeComponent extends Component {
                                     <th></th>
                                     <th></th>
                                     
-                                </tr>
+                                </tr></thead>
+                                <tbody>
                                 {
                             this.state.list.map((item)=>
                                 <tr>
@@ -66,7 +69,8 @@ class HomeComponent extends Component {
                             
                             )
                         }
-                        </table>
+                        </tbody>
+                        </Table>
                     </div>:
                     <h2>Please Wait.....</h2>
                 }

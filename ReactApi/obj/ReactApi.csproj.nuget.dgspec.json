@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\practices\\ReactApi\\ReactApi.csproj": {}
+    "D:\\ReactWithApi\\ReactApi\\ReactApi.csproj": {}
   },
   "projects": {
-    "D:\\practices\\ReactApi\\ReactApi.csproj": {
+    "D:\\ReactWithApi\\ReactApi\\ReactApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\practices\\ReactApi\\ReactApi.csproj",
+        "projectUniqueName": "D:\\ReactWithApi\\ReactApi\\ReactApi.csproj",
         "projectName": "ReactApi",
-        "projectPath": "D:\\practices\\ReactApi\\ReactApi.csproj",
+        "projectPath": "D:\\ReactWithApi\\ReactApi\\ReactApi.csproj",
         "packagesPath": "C:\\Users\\Rohit Rana\\.nuget\\packages\\",
-        "outputPath": "D:\\practices\\ReactApi\\obj\\",
+        "outputPath": "D:\\ReactWithApi\\ReactApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rohit Rana\\AppData\\Roaming\\NuGet\\NuGet.Config",

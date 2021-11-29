@@ -36,6 +36,15 @@
     transform: rotate(360deg);
   }
 }
-table ,th,tr,td{
-  border: 1px solid;
+.st1{
+  position:absolute;
+  
+padding-left: 30%;
+  width: 100%;
+   /*set to a negative number 1/2 of your height*/
+  
+  
+}
+.st1 h2{
+   padding-left:10%
 }

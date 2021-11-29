@@ -5984,11 +5984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\practices\\ReactApi\\ReactApi.csproj",
+      "projectUniqueName": "D:\\ReactWithApi\\ReactApi\\ReactApi.csproj",
       "projectName": "ReactApi",
-      "projectPath": "d:\\practices\\ReactApi\\ReactApi.csproj",
+      "projectPath": "D:\\ReactWithApi\\ReactApi\\ReactApi.csproj",
       "packagesPath": "C:\\Users\\Rohit Rana\\.nuget\\packages\\",
-      "outputPath": "d:\\practices\\ReactApi\\obj\\",
+      "outputPath": "D:\\ReactWithApi\\ReactApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rohit Rana\\AppData\\Roaming\\NuGet\\NuGet.Config",
